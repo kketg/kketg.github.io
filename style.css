@@ -56,7 +56,7 @@ body {
     color: white;
 }
 
-#categoryjServ {
+.category {
     font-size: 20px;
     padding: 20px;
     text-align: center;
@@ -64,17 +64,17 @@ body {
     margin-right: 30%;
     margin-bottom: 5px;
     border-radius: 25px;
+}
+
+#jServ {
     background-color: #EF8354;
 }
 
-#categoryVenture {
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 5px;
-    border-radius: 25px;
+#Psych {
+    background-color: #1DD3B0;
+}
+
+#Venture {
     background-color: #32a852;
 }
 

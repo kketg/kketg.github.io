@@ -1,0 +1,16 @@
+#header {
+    position: relative;
+    background-color: #717171;
+}
+
+#headerIcon {
+    padding: 5px;
+    float: center;
+    vertical-align: middle;
+}
+
+#headerText {
+    padding: 5px;
+    font-size: 80px;
+    float: center;
+}

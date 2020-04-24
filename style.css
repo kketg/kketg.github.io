@@ -78,7 +78,7 @@ body {
     background-color: #32a852;
 }
 
-#category a {
+.category a {
     color: white;
     text-decoration: underline;
 }

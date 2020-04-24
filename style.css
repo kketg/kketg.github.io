@@ -21,7 +21,7 @@ body {
 }
 
 #content {
-    background-color: #4F5D75;
+    background-color: #212121;
 }
 
 .contentHeaders {
@@ -35,7 +35,7 @@ body {
 
 #header {
     position: relative;
-    background-color: #2D3142;
+    background: linear-gradient(to top, #373737, #212121);
 }
 
 #header a {
@@ -56,12 +56,31 @@ body {
     color: white;
 }
 
-#category {
+#categoryjServ {
     font-size: 20px;
     padding: 20px;
     text-align: center;
-    border-radius: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5px;
+    border-radius: 25px;
     background-color: #EF8354;
+}
+
+#categoryVenture {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5px;
+    border-radius: 25px;
+    background-color: #32a852;
+}
+
+#category a {
+    color: white;
+    text-decoration: underline;
 }
 
 .categorylink {

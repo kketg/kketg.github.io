@@ -1,6 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    font-family: "Andale Mono", AndaleMono, monospace;
+    letter-spacing: -0.2px;
+    word-spacing: -1.2px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#content {
+    background-color: #4F5D75;
+}
+
+.contentHeaders {
+    border: 10px;
+    padding: 10px;
+    font-family: "Andale Mono", AndaleMono, monospace;
+    font-size: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 #header {
     position: relative;
-    background-color: #717171;
+    background-color: #2D3142;
+}
+
+#header a {
+    color: white;
+    text-decoration: none!important;
 }
 
 #headerIcon {
@@ -11,6 +51,24 @@
 
 #headerText {
     padding: 5px;
-    font-size: 80px;
+    font-size: 50px;
     float: center;
+    color: white;
+}
+
+#category {
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #EF8354;
+}
+
+.categorylink {
+    float: none;
+}
+
+.categoryimage {
+    padding: 10px;
+    float: none;
 }

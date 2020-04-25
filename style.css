@@ -22,6 +22,7 @@ body {
 
 #content {
     background-color: #212121;
+    padding: 10px;
 }
 
 .contentHeaders {
@@ -63,7 +64,7 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     margin-bottom: 5px;
-    border-bottom: 10px;
+    border: 10px;
     border-radius: 25px;
 }
 

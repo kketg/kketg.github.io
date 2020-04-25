@@ -35,11 +35,12 @@ body {
 }
 
 #header {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
     background: linear-gradient(to top, #373737, #212121);
 }
 
-#header a {
+#headerlink {
     color: white;
     text-decoration: none!important;
 }
@@ -55,6 +56,24 @@ body {
     font-size: 50px;
     float: center;
     color: white;
+}
+
+#links {
+    height: 148px;
+    line-height: 148px;
+    padding-right: 2%;
+    vertical-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.links {
+    text-decoration: none!important;
+}
+
+.links img {
+    vertical-align: middle;
+    padding-left: 10px;
 }
 
 .category {
@@ -87,6 +106,7 @@ body {
 
 .categorylink {
     float: none;
+    font-size: 30px;
 }
 
 .categoryimage {

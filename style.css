@@ -76,6 +76,13 @@ body {
     padding-left: 10px;
 }
 
+#video {
+    vertical-align: middle;
+    text-align: center;
+    background-color: #212121;
+    padding: 10px;
+}
+
 .category {
     font-size: 20px;
     padding: 20px;

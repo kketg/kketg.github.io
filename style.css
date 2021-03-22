@@ -130,3 +130,10 @@ body {
     color: white;
     font-style: italic;
 }
+
+#copyright {
+    text-align: center;
+    font-size: 24px;
+    padding: 8px;
+    background-color: black;
+}

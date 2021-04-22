@@ -18,6 +18,66 @@ body {
     font-style: normal;
     font-variant: normal;
     text-transform: none;
+    background-color: #212121;
+    color: #fff;
+}
+
+#redirector {
+    text-align: center;
+}
+
+#redirector h1 {
+    font-size: 72px;
+    text-shadow: -5px 5px 4px #111;
+    margin-top: 1.5em;
+    animation: fadeInH1 ease 1s;
+}
+
+#redirector p {
+    font-size: 28px;
+    text-shadow: -5px 5px 4px #111;
+}
+
+#p1 {
+    animation: fadeInP ease 1s 1s both;
+}
+
+#p1 a {
+    color: #ff0033;
+}
+
+#p2 {
+    animation: fadeInP ease 1s 2s both;
+}
+
+#p3 {
+    animation: fadeInP ease 1s 3s both;
+}
+
+#p3 a {
+    color: #42f584;
+}
+
+@keyframes fadeInH1 {
+    0% {
+        opacity: 0;
+        margin-top: 0;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 1.5em;
+    }
+}
+
+@keyframes fadeInP {
+    0% {
+        opacity: 0;
+        margin-top: 0;
+    }
+    100% {
+        opacity: 1;
+        margin-top: 1.5em;
+    }
 }
 
 #content {
@@ -94,27 +154,6 @@ body {
     border-radius: 25px;
 }
 
-#kotl {
-    background-color: #fca903;
-}
-
-#remains {
-    text-color: #fff;
-    background-color: #373737
-}
-
-#jServ {
-    background-color: #EF8354;
-}
-
-#Sparkplug {
-    background-color: #1DD3B0;
-}
-
-#Venture {
-    background-color: #32a852;
-}
-
 .category a {
     color: white;
     text-decoration: underline;
@@ -140,6 +179,18 @@ body {
     text-align: center;
     font-size: 16px;
     padding: 8px;
-    background-color: black;
+    background-color: #111;
     color: white;
+    position: fixed;
+    bottom: 0;
+    animation: fadeInCopyright ease 1s 4s both;
+}
+
+@keyframes fadeInCopyright {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

@@ -103,18 +103,19 @@ body {
 #headerlink {
     color: white;
     text-decoration: none!important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #headerIcon {
-    padding: 5px;
-    float: center;
-    vertical-align: middle;
+    padding: 1em;
+
 }
 
 #headerText {
     padding: 5px;
     font-size: 50px;
-    float: center;
     color: white;
 }
 

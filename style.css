@@ -30,7 +30,7 @@ body {
     font-size: 72px;
     text-shadow: -5px 5px 4px #111;
     margin-top: 1.5em;
-    animation: fadeInH1 ease 1s;
+    animation: fadeInH1 ease 0.5s;
 }
 
 #redirector p {
@@ -39,7 +39,7 @@ body {
 }
 
 #p1 {
-    animation: fadeInP ease 1s 1s both;
+    animation: fadeInP ease 0.5s 0.5s both;
 }
 
 #p2 a {
@@ -47,11 +47,11 @@ body {
 }
 
 #p2 {
-    animation: fadeInP ease 1s 2s both;
+    animation: fadeInP ease 0.5s 1s both;
 }
 
 #p3 {
-    animation: fadeInP ease 1s 3s both;
+    animation: fadeInP ease 0.5s 1.5s both;
 }
 
 #p3 a {
@@ -184,7 +184,7 @@ body {
     color: white;
     position: fixed;
     bottom: 0;
-    animation: fadeInCopyright ease 1s 4s both;
+    animation: fadeInCopyright ease 0.5s 2s both;
 }
 
 @keyframes fadeInCopyright {

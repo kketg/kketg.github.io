@@ -129,6 +129,14 @@ body {
     color: #6153CC;
 }
 
+.image-label-desc {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none !important;
+    text-shadow: -5px 5px 4px #111;
+}
+
 .image-row {
     display: flex;
     flex-direction: row;
@@ -138,6 +146,7 @@ body {
 
 .image-row a {
     text-decoration: none !important;
+    padding: 2%;
 }
 
 .image-row img {

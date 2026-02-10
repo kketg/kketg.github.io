@@ -18,7 +18,7 @@ body {
     font-style: normal;
     font-variant: normal;
     text-transform: none;
-    background-color: #212121;
+    background-color: #181818;
     color: #fff;
 }
 
@@ -67,6 +67,7 @@ body {
         opacity: 0;
         margin-top: 0;
     }
+
     100% {
         opacity: 1;
         margin-top: 1.5em;
@@ -78,24 +79,96 @@ body {
         opacity: 0;
         margin-top: 0;
     }
+
     100% {
         opacity: 1;
         margin-top: 1.5em;
     }
 }
 
+.page-section {
+    display: flex;
+    color: #fff;
+    padding: 1em 3em;
+    overflow: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #content {
     background-color: #212121;
     padding: 10px;
+    display: flex;
+    color: #fff;
+    padding: 1em 3em;
+    overflow: auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.contentHeaders {
+.content-header {
     border: 10px;
     padding: 10px;
     font-family: "Andale Mono", AndaleMono, monospace;
     font-size: 30px;
+    text-shadow: #212121 -3px 3px 5px;
     text-align: center;
     color: #FFFFFF;
+}
+
+
+.image-label {
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none !important;
+    text-shadow: -5px 5px 4px #111;
+}
+
+.image-label:hover {
+    color: #6153CC;
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px 15px 15px 15px;
+    align-items: center;
+}
+
+.image-row a {
+    text-decoration: none !important;
+}
+
+.image-row img {
+    width: auto;
+    height: 192px;
+    padding: 1.5em;
+}
+
+.image-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--mint-white);
+    border-radius: 0px 15px 15px 0px;
+}
+
+@media screen and (max-width: 1366px) {
+    .image-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: var(--mint-white);
+        border-radius: 0px 0px 15px 15px;
+    }
+}
+
+
+.image-column img {
+    width: 3em;
+    height: 3em;
+    padding: 0.5em 0.5em;
 }
 
 #header {
@@ -106,7 +179,7 @@ body {
 
 #headerlink {
     color: white;
-    text-decoration: none!important;
+    text-decoration: none !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,17 +196,41 @@ body {
     color: white;
 }
 
+nav {
+    height: 148px;
+    line-height: 148px;
+    font-size: 24px;
+    padding: 0 5%;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-shadow: -5px 5px 4px #111;
+    text-decoration: none !important;
+}
+
+nav a:not(.selected-nav):hover {
+    color: lightgray !important;
+}
+
+nav .selected-nav {
+    color: #80f8ac !important;
+}
+
+nav .selected-nav:hover {
+    color: #30c466 !important;
+}
+
 #links {
     height: 148px;
     line-height: 148px;
-    padding-right: 2%;
-    vertical-align: center;
-    font-size: 50px;
+    padding-right: 1%;
     color: white;
 }
 
 .links {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 .links img {
@@ -188,14 +285,49 @@ body {
     color: white;
     position: fixed;
     bottom: 0;
-    animation: fadeInCopyright ease 0.5s 2s both;
+    animation: fadeInCopyright ease 0.5s 0.5s both;
 }
 
 @keyframes fadeInCopyright {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInFromLeft {
+    0% {
+        margin-left: -4em;
+        opacity: 0;
+    }
+
+    100% {
+        margin-left: 0em;
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s both;
+}
+
+.fade-in-from-left {
+    animation: fadeInFromLeft 0.5s both;
+}
+
+.delay-animation {
+    animation-delay: 0.5s;
 }
